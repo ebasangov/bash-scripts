@@ -1,5 +1,6 @@
 #--------------------------------------------------------------------
-# Script to Install Nginx Web Server on Linux Ubuntu(14.04, 16.04, 18.04, 20.04, 22.04), CentOS 7
+# Script to Install latest Stable version of Nginx Web Server.
+# Suppoted OS: Linux Ubuntu (14.04, 16.04, 18.04, 20.04, 22.04), CentOS 7
 #
 #--------------------------------------------------------------------
 
@@ -131,3 +132,4 @@ systemctl enable nginx
 systemctl start nginx
 
 curl localhost
+nginx -v
